@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "==1.21.2"
+scipy = "*"
+scikit-learn = "*"
+matplotlib = "*"
+pandas = "*"
+jupyterlab = "*"
+torch = "*"
+torchvision = "*"
+pytorch-lightning = "*"
+tensorboard = "*"
+pytorch-ignite = "*"
+portalocker = "*"
+torchtext = "==0.16.0"
+transformers = {extras = ["torch"], version = "*"}
+datasets = "*"
+pygame = "*"
+setuptools = "==66.0.0"
+cython = "<3"
+wheel = "==0.38.4"
+gym = {version = "==0.21", extras = ["all"]}
+pyglet = "==1.5.27"
+pyqt6 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
