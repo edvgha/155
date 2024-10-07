@@ -7,6 +7,9 @@ name = "pypi"
 scikit-learn = "*"
 jupyterlab = "*"
 matplotlib = "*"
+torch = "*"
+torchvision = "*"
+lightning = "*"
 
 [dev-packages]
 
